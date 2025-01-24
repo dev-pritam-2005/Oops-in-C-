@@ -1,1 +1,29 @@
-Oops -> Entity (this is use for  increase the readablity of programs & manageablity)
+Oops -> Entity (this is use for  increase the readablity of programs & manageablity) 
+
+
+
+Object-oriented programming – As the name suggests uses objects in programming. Object-oriented programming aims to implement real-world entities like inheritance, hiding, polymorphism, etc. in programming. The main aim of OOP is to bind together the data and the functions that operate on them so that no other part of the code can access this data except that function.
+
+There are some basic concepts that act as the building blocks of OOPs i.e.
+
+Class    :-  this is a user defined data types
+Object
+Encapsulation
+Abstraction
+Polymorphism
+Inheritance
+Dynamic Binding
+Message Passing
+
+
+
+
+class &? object :  ***** NOTE : when it is the case of Empty class  , the object allocated with 1byte  of memory of identification 
+ *****
+
+ accessing the element of a class in main program using '.' operator ******
+
+ ACCESS Modifires are 3 types : public 
+                                Private
+                                Protected
+
