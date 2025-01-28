@@ -27,3 +27,48 @@ class &? object :  ***** NOTE : when it is the case of Empty class  , the object
                                 Private
                                 Protected
 
+WHEN WE CREATE A OBJECT THEN  IT CALLS A CONSTRUCTOR (a special type of function called to create an object)
+
+            CONSTRUCTOR------->1)The name of the constructor is the same as its class name.
+                                
+                                2)Constructors are mostly declared in the public section of the class though 
+                                they can be declared in the private section of the class.
+                                
+                                3)Constructors do not return values; hence they do not have a return type.
+                               
+                                4)A constructor gets called automatically when we create the object of the class.
+                                                       |
+                                5)there is no input para meter
+
+
+
+
+        DEFAULT CONSTRUCTOR : A default constructor is a constructor that doesn’t take any argument. It has no parameters. It is also called a zero-argument constructor.
+
+
+example :
+
+        className() {
+    // body_of_constructor
+}
+
+
+        Parameterized Constructor:
+        Parameterized constructors make it possible to pass arguments to constructors. Typically, these arguments help initialize an object when it is created. To create a parameterized constructor, simply add parameters to it the way you would to any other function. When you define the constructor’s body, use the parameters to initialize the object.
+
+example:
+            className (parameters...) {
+      // body
+}
+
+
+
+
+The 'this'  keyword in C++ is a special pointer available to all non-static member functions of a class. It refers to the current object, 
+i.e., the instance of the class that invoked the function. Here's a detailed explanation of its usage:
+
+1. Accessing Class Members
+2. Returning the Current Object
+3. Distinguishing Between Member and Static Context
+4. Avoiding Unnecessary Copies
+
